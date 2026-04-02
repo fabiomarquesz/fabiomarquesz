@@ -1,16 +1,148 @@
-## Hi there 👋
+<h1 align="center">Olá, eu sou o Fabio Marques 👋</h1>
 
-<!--
-**fabiomarquesz/fabiomarquesz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Ciência de Dados | Engenharia de Dados | Análise de Dados
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://linkedin.com/in/fabio-marquesz">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:fabinho_marquez@hotmail.com.br">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/fabiomarquesz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+---
+
+## Sobre mim
+
+- Atualmente estou cursando ADS no meu último semestre. Tenho foco total na área da dados, onde procuro estar sempre me atualizando com novos estudos. Recentemente inicei meu Estágio junto a Prefeitura Municipal de Ilhabela na área da TI do setor da Educação, onde somos responsáveis por gerenciar manutenção de computadores, instalações de impressoras, tudo via rede privada do município.
+-  Aprofundando em **dbt**, **Apache Spark**, **Airflow**, **Docker** e arquiteturas de dados modernas
+-  Foco em qualidade de dados, reprodutibilidade e automação de pipelines
+
+---
+
+## Stack & Ferramentas
+
+**Linguagens**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Bancos de Dados**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Engenharia de Dados**
+
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-FF3621?style=for-the-badge&logo=apachespark&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF6600?style=for-the-badge&logo=dbt&logoColor=white)
+
+**Análise & Visualização**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+
+**DevOps & Infra**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## Projetos em Destaque
+
+### 🏟️ [brasileirao-2023-pipeline](https://github.com/fabiomarquesz/brasileirao-2023-pipeline)
+
+> Pipeline end-to-end para análise do Brasileirão Série A 2023.
+
+- **Web scraping** de dados de partidas, times e jogadores
+- **Modelagem dimensional** em PostgreSQL — schemas `raw → dwh → analytics`
+- **Orquestração** com Apache Airflow (DAGs automatizados)
+- **Visualizações analíticas** geradas a partir do schema `analytics`
+
+`Python` `PostgreSQL` `Apache Airflow` `Data Modeling` `Web Scraping`
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=fabiomarquesz&show_icons=true&theme=dark&hide_border=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiomarquesz&layout=compact&theme=dark&hide_border=true" />
+</p>
+
+---
+
+## Streak
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=fabiomarquesz&theme=dark&hide_border=true" />
+</p>
+
+---
+
+## Contribuições (Snake)
+
+<!-- Adicione via GitHub Actions — veja instruções abaixo -->
+<p align="center">
+  <img src="https://github.com/fabiomarquesz/fabiomarquesz/blob/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+
+<p align="center">
+  <i>"Without data, you're just another person with an opinion."</i><br/>
+  — W. Edwards Deming
+</p>
+
+---
+
+<!-- 
+========================================================
+INSTRUÇÕES DE CONFIGURAÇÃO
+========================================================
+
+1. SUBSTITUA os placeholders:
+   - SEU_USUARIO     → seu usuário do LinkedIn
+   - SEU_EMAIL       → seu e-mail de contato
+   - fabiomarquesz   → seu usuário do GitHub (em todas as URLs)
+
+2. SNAKE ANIMATION (opcional):
+   Crie o arquivo .github/workflows/snake.yml no repositório do perfil:
+
+   name: Generate Snake
+   on:
+     schedule:
+       - cron: "0 0 * * *"
+     workflow_dispatch:
+   jobs:
+     generate:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: Platane/snk@v3
+           with:
+             github_user_token: ${{ secrets.GITHUB_TOKEN }}
+             outputs: |
+               dist/github-contribution-grid-snake.svg
+               dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+         - uses: crazy-max/ghaction-github-pages@v3
+           with:
+             target_branch: output
+             build_dir: dist
+           env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+3. ADICIONE MAIS PROJETOS à seção "Projetos em Destaque" conforme for criando.
+
+4. Para mais badges: https://shields.io e https://github.com/Ileriayo/markdown-badges
+========================================================
 -->
