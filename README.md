@@ -73,29 +73,12 @@
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=fabiomarquesz&show_icons=true&theme=dark&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiomarquesz&layout=compact&theme=dark&hide_border=true" />
-</p>
-
----
-
 ## Streak
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=fabiomarquesz&theme=dark&hide_border=true" />
 </p>
 
----
-
-## Contribuições (Snake)
-
-<!-- Adicione via GitHub Actions — veja instruções abaixo -->
-<p align="center">
-  <img src="https://github.com/fabiomarquesz/fabiomarquesz/blob/output/github-contribution-grid-snake-dark.svg" />
-</p>
 
 ---
 
@@ -105,44 +88,3 @@
 </p>
 
 ---
-
-<!-- 
-========================================================
-INSTRUÇÕES DE CONFIGURAÇÃO
-========================================================
-
-1. SUBSTITUA os placeholders:
-   - SEU_USUARIO     → seu usuário do LinkedIn
-   - SEU_EMAIL       → seu e-mail de contato
-   - fabiomarquesz   → seu usuário do GitHub (em todas as URLs)
-
-2. SNAKE ANIMATION (opcional):
-   Crie o arquivo .github/workflows/snake.yml no repositório do perfil:
-
-   name: Generate Snake
-   on:
-     schedule:
-       - cron: "0 0 * * *"
-     workflow_dispatch:
-   jobs:
-     generate:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: Platane/snk@v3
-           with:
-             github_user_token: ${{ secrets.GITHUB_TOKEN }}
-             outputs: |
-               dist/github-contribution-grid-snake.svg
-               dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-         - uses: crazy-max/ghaction-github-pages@v3
-           with:
-             target_branch: output
-             build_dir: dist
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-3. ADICIONE MAIS PROJETOS à seção "Projetos em Destaque" conforme for criando.
-
-4. Para mais badges: https://shields.io e https://github.com/Ileriayo/markdown-badges
-========================================================
--->
